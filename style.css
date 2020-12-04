@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header{
+    background-image: url('img/first-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 210px;
+    align-items: center;
+}
+
+.header__menu-list{
+    list-style-type: none;
+    display: flex;
+}
+
+.header__menu-list a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #fff;
+    text-transform:uppercase;
+}
+
+.header__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__content h1{
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.header__content span{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.header__btn{
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:25px 50px;
+    background-color: #fed136;
+    text-align: center;
+    border-radius: 5px;
+    color: #222222;
+    font-weight: 700;
+}
+
+.block__services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.block__title h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    color: #222222;
+}
+
+.block__title span{
+    font-size: 16px;
+    display: block;
+    padding-top: 25px;
+    margin-bottom: 75px;
+    text-align: center;
+    color: #777777;
+}
+
+.block-items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.block-item__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 255px;
+}
+
+.block-item__inner img{
+    margin-bottom: 25px;
+}
+
+.block-item__inner h3{
+    margin-bottom: 20px;
+}
+
+.block-item__inner p{
+    text-align: center;
+    color: #777777;
+}
+
+.block__portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.block__bg{
+    background-color: #f7f7f7;
+}
+
+.block__portfolio-title h2{
+    margin-top: 120px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #222222;
+    text-align: center;
+}
+
+.block__portfolio-title span{
+    font-size: 16px;
+    display: block;
+    padding-top: 25px;
+    margin-bottom: 75px;
+    text-align: center;
+    color: #777777;
+}
+
+.block__portfolio-img ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 130px;
+}
+
+.block__portfolio-img img{
+    margin-right: 35px;
+}
+
+.block__portfolio-img img::last-child{
+    margin-right: 0;
+}
+
+.block__about{
+    display: flex;
+    flex-direction: column;
+}
+
+.block__about-title h2{
+    margin-top: 120px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #222222;
+    text-align: center;
+}
+
+.block__about-title span{
+    font-size: 16px;
+    display: block;
+    padding-top: 25px;
+    margin-bottom: 75px;
+    text-align: center;
+    color: #777777;
+}
+
+.block__about-items{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.item-inner1{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 90px;
+    margin-left:50px;
+}
+
+.item-inner2{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 90px;
+    margin-right: 50px;
+}
+
+.item-inner2::last-child{
+    margin-bottom: 0;
+}
+
+.item-inner1 .wrap{
+    display: flex;
+    flex-direction: column;
+    max-width: 290px;
+    margin-right: 40px;
+}
+
+.item-inner2 .wrap{
+    display: flex;
+    flex-direction: column;
+    max-width: 290px;
+    margin-left: 40px;
+}
+
+.wrap span{
+    display: block;
+    margin-bottom: 25px;
+}
+
+.wrap p{
+    font-size: 14px;
+    color: #777777;
+}
+
+.block__foter{
+    text-align: center;
+    margin: 25px 0 90px 0;
+    font-style: 14px;
+    color: #777777;
+    font-weight: 400;
+}
